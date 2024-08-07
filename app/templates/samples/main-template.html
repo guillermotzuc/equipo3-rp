@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ===== Meta ===== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Favicon ===== -->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/img/favicon.png') }}">
+
+    <!-- ===== Title ===== -->
+    <title>Memecoin - Cryptocurrency Landing Page HTML5 Template</title>
+
+    <!-- ===== LineAwesome ===== -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/line-awesome.min.css') }}">
+
+
+    <!-- ===== LineAwesome ===== -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Dela+Gothic+One&display=swap"
+        rel="stylesheet">
+    <!-- ===== Bootstrap ===== -->
+    <link href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- ===== AOS ===== -->
+    <link href="{{ url_for('static', filename='assets/css/aos.css') }} " rel="stylesheet">
+    <!-- ===== Swiper ===== -->
+    <link href="{{ url_for('static', filename='assets/css/swiper-bundle.min.css') }} " rel="stylesheet">
+    <!-- ===== CSS ===== -->
+    <link href="{{ url_for('static', filename='assets/css/main.css') }} " rel="stylesheet">
+    <link href="{{ url_for('static', filename='assets/css/responsive.css') }}" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <main class="page-main">
+        <!-- Start Header -->
+        <header class="header_area">
+            <div class="container">
+                <div class="header_wrap">
+                    <a href="#hero" class="logo">$MMC</a>
+                    <!-- Start Nav -->
+                    <div class="navArea">
+                        <div class="social-link-wrap">
+                            <a href="https://www.telegram.com" class="social-link" target="_blank">
+                                <img src="{{ url_for('static', filename='assets/img/telegram.png') }}" alt="Telegram">
+                            </a>
+                            <a href="https://www.discord.com" class="social-link" target="_blank">
+                                <img src="{{ url_for('static', filename='assets/img/discord.png') }} " alt="Discord">
+                            </a>
+                            <a href="https://www.notion.com" class="social-link" target="_blank">
+                                <img src="{{ url_for('static', filename='assets/img/notion.png') }}  " alt="Notion">
+                            </a>
+                        </div>
+                        <!-- End Social -->
+                        <div class="cta-wrap">
+                            <a href="https://themeforest.net/user/widethemes" class="primary-btn purchase-btn">
+                                <span>Buy</span>
+                            </a>
+                            <button class="menu-btn">
+                                <!-- <img src="assets/img/hamburger.svg">
+                                <img src="assets/img/close-sign.svg"> -->
+                                <span class="bars-wrap">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- End Nav -->
+                </div>
+                <nav class="nav-menu-wrap">
+                    <div class="nav-links-wrap">
+                        <a href="#about" class="nav-link"><span>About</span></a>
+                        <a href="#Features" class="nav-link"><span>Features</span></a>
+                        <a href="#Tokenomics" class="nav-link"><span>Tokenomics</span></a>
+                        <a href="#Roadmap" class="nav-link"><span>Roadmap</span></a>
+                        <a href="#HowToBuy" class="nav-link"><span>How To Buy</span></a>
+                        <a href="#Faq" class="nav-link"><span>Faq</span></a>
+                    </div>
+                    <img src="assets/img/illustration-5.png" class="pouchfella">
+                    <div class="social-link-wrap two">
+                        <a href="https://www.telegram.com" class="social-link" target="_blank">
+                            <img src="{{ url_for('static', filename='assets/img/telegram-2.png') }} " alt="Telegram">
+                        </a>
+                        <a href="https://www.discord.com" class="social-link" target="_blank">
+                            <img src="{{ url_for('static', filename='assets/img/discord-2.png') }} " alt="Discord">
+                        </a>
+                        <a href="https://www.notion.com" class="social-link" target="_blank">
+                            <img src="{{ url_for('static', filename='assets/img/notion-2.png') }} " alt="Notion">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <div class="smooth-scroll-wrap">
+
+
+            <!-- Start Hero -->
+            <section class="hero-area" id="hero">
+                <div class="hero-bg-pattern">
+                    <div class="pattern-box">
+                        <img src="{{ url_for('static', filename='assets/img/shape.png') }} " class="hero-pattern">
+                    </div>
+
+                </div>
+                <!-- End Hero Pattern -->
+                <div class="hero-contents">
+                    <div class="hero-contents-wrap">
+                        <h6 class="sub-title" data-aos="fade-up" data-aos-duration="400">Introducing</h6>
+                        <div class="headlines">
+                            <h1 class="hero-title" data-aos="fade-up" data-aos-duration="600">memecoin</h1>
+                            <p class="describtion" data-aos="fade-up" data-aos-duration="700">The only cryptocurrency
+                                you
+                                will HODL till the next bear run.</p>
+                            <div class="cta-wrap" data-aos="fade-up" data-aos-duration="800">
+                                <a href="https://themeforest.net/user/widethemes" target="_blank"
+                                    class="primary-btn"><span>Buy
+                                        Template</span></a>
+                                <a href="#" class="secondery-btn">learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Start Sub-Hero -->
+                <div class="sub-hero-area">
+                    <div class="gtItNw-img-wrap">
+                        <div class="img-box">
+                            <img src="{{ url_for('static', filename='assets/img/illustration-1.svg') }} ">
+                            <img src="{{ url_for('static', filename='assets/img/caption.png') }} " class="caption">
+                        </div>
+
+                    </div>
+                    <div class="address">
+                        <div class="address-wrap">
+                            <img src="{{ url_for('static', filename='assets/img/copy.png') }} ">
+                            <span class="cpy-status">Token address: </span>
+                            <input type="text" class="cpy-text"
+                                value="0x532f27101965dd16442E59d40670FaF5eBB142E4"></input>
+                            <button id="cpyBtn"></button>
+                        </div>
+                    </div>
+                    <!-- End Address -->
+                    <div class="getItNow-wrap">
+                        <div class="title-wrap">
+                            <h2 class="getItNow-title">Get it <img src="{{ url_for('static', filename='assets/img/shape-2.png') }}"></h2>
+                            <h2 class="getItNow-title">now on:</h2>
+                        </div>
+                        <div class="gtItNw-area">
+                            <ul class="gtItNw-links-wrap">
+                                <a href="https://www.gate.io/" class="gtItNw-link" target="_blank">Gate.io</a>
+                                <a href="https://www.bitget.com/" class="gtItNw-link" target="_blank">Bitget</a>
+                                <a href="https://www.bingx.com/en-us/" class="gtItNw-link" target="_blank">BingX</a>
+                                <a href="https://www.lbank.com/" class="gtItNw-link" target="_blank">LBANK</a>
+                                <a href="https://www.gate.io/" class="gtItNw-link" target="_blank">Gate.io</a>
+                                <a href="https://www.bitget.com/" class="gtItNw-link" target="_blank">Bitget</a>
+                                <a href="https://www.bingx.com/en-us/" class="gtItNw-link" target="_blank">BingX</a>
+                                <a href="https://www.lbank.com/" class="gtItNw-link" target="_blank">LBANK</a>
+                                <a href="https://www.gate.io/" class="gtItNw-link" target="_blank">Gate.io</a>
+                                <a href="https://www.bitget.com/" class="gtItNw-link" target="_blank">Bitget</a>
+                                <a href="https://www.bingx.com/en-us/" class="gtItNw-link" target="_blank">BingX</a>
+                                <a href="https://www.lbank.com/" class="gtItNw-link" target="_blank">LBANK</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Get It Now -->
+                </div>
+                <!-- End Sub-Hero -->
+
+            </section>
+            <!-- End Hero -->
+
+
+
+            <!-- Start About -->
+            <section class="about-area" id="about">
+                <h2 class="sec-title" data-aos="fade-up" data-aos-duration="800">What is this about?</h2>
+                <div class="story-wrap">
+                    <div class="story-headline">
+                        <div class="stry-hdlin-title-wrap">
+                            <h4 class="stry-hdlin-title">Nothing is Impossible with memecoin</h4>
+                            <img src="{{ url_for('static', filename='assets/img/rocket.png') }} " class="stry-illustration">
+                        </div>
+                    </div>
+                    <!-- End Headline -->
+                    <div class="stry-description-video-wrap">
+                        <div class="stry-description-wrap">
+                            <div class="stry-description">
+                                <p>In the vibrant and ever-evolving world of cryptocurrency, where innovation and
+                                    creativity
+                                    reign supreme, there emerged a phenomenon that captured the hearts and minds of
+                                    digital
+                                    enthusiasts everywhere: Memecoin.</p>
+
+                                <p>It all began with a spark of inspiration, a playful nod to the internet culture that
+                                    thrived on humor and satire. A group of visionary developers and meme enthusiasts
+                                    came
+                                    together with a shared passion for both cryptocurrency and the art of internet
+                                    memes.
+                                    They envisioned a platform that would combine these two seemingly disparate worlds
+                                    into
+                                    a harmonious symphony of laughter and digital currency.</p>
+
+                                <p>Thus, Memecoin was born – a revolutionary platform that empowered creators to unleash
+                                    their imagination and bring their wildest meme-inspired dreams to life. It wasn't
+                                    just
+                                    about trading coins; it was about building communities, sparking conversations, and
+                                    spreading joy through the power of memes.</p>
+                            </div>
+                            <a href="https://themeforest.net/user/widethemes" class="primary-btn"><span>Buy
+                                    Template</span></a>
+                        </div>
+                        <div class="stry-video-wrap">
+                            <div class="stry-video">
+                                <iframe
+                                    src="https://player.vimeo.com/video/345945892?muted=1&amp;autoplay=1&amp;autopause=0&amp;controls=0&amp;loop=1&amp;app_id=122963"
+                                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                                    style="position:absolute;top:0;left:-17px;width:100%;height:100%;"
+                                    title="ISOMETRIC ILLUSTRATION" data-ready="true"></iframe>
+                                <button class="vid-ply-btn">
+                                    <div class="vid-ply-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path
+                                                d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                                        </svg>
+                                    </div>
+                                    <span>Watch the video</span>
+                                </button>
+                            </div>
+                        </div>
+                        <a href="https://themeforest.net/user/widethemes" class="primary-btn"><span>Buy
+                                Template</span></a>
+                    </div>
+                </div>
+
+            </section>
+            <!-- End About -->
+
+            <!-- Start Features -->
+            <section class="features-area" id="Features">
+                <div class="container">
+                    <div class="title-wrap" style="text-align: center;">
+                        <h6 class="sub-title" data-aos="fade-up" data-aos-duration="700">We got really</h6>
+                        <h2 class="getItNow-title shape" data-aos="fade-up" data-aos-duration="800">Strong</h2>
+                        <h2 class="getItNow-title" data-aos="fade-up" data-aos-duration="900">Foundation</h2>
+                    </div>
+                    <!-- End Titles -->
+                    <div class="features-wrap">
+                        <div class="feature">
+                            <div class="feature-img">
+                                <img src="{{ url_for('static', filename='assets/img/foundation-1.png') }} " alt="Foundation">
+                            </div>
+                            <div class="feature-contents">
+                                <h4>Strategic <br> Partnerships</h4>
+                                <p>Memecoin has forged strategic partnerships with leading players in the cryptocurrency
+                                    industry, as well as with key influencers and platforms in the meme community.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-img">
+                                <img src="{{ url_for('static', filename='assets/img/foundation-2.png') }} " alt="Foundation">
+                            </div>
+                            <div class="feature-contents">
+                                <h4>Community <br> Support</h4>
+                                <p>Through active engagement, open communication, and collaborative initiatives,
+                                    Memecoin
+                                    fosters a strong sense of community spirit among its members.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-img">
+                                <img src="{{ url_for('static', filename='assets/img/foundation-3.png') }} " alt="Foundation">
+                            </div>
+                            <div class="feature-contents">
+                                <h4>Growing <br> Ecosystem</h4>
+                                <p>With a growing network of users, developers, and investors, Memecoin offers
+                                    unparalleled
+                                    opportunities for collaboration, networking, and mutual support.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+            <!-- End Features -->
+
+            <!-- Start Tokenomics -->
+            <section class="tokenomics-area" id="Tokenomics">
+                <div class="title-wrap">
+                    <h6 class="sub-title" data-aos="fade-up" data-aos-duration="700">It's always about that</h6>
+                    <h2 class="getItNow-title" data-aos="fade-up" data-aos-duration="800">Tokenomics</h2>
+                </div>
+                <!-- End Title -->
+                <div class="pikissuperstar">
+                    <div class="pikissuperstar-inner">
+                        <img data-jarallax-element="-100 0" src="{{ url_for('static', filename='assets/img/illustration-2.svg')}}">
+                    </div>
+                </div>
+
+                <img src="{{ url_for('static', filename='assets/img/shape-4.png')}}" class="lv-shape">
+
+                <div class="chart-wrap">
+                    <ul class="gtItNw-links-wrap tokenomics-links-wrap">
+                        <li class="gtItNw-link tokenomic-link">Tokenoimcs</li>
+                        <li class="gtItNw-link tokenomic-link">Tokenoimcs</li>
+                        <li class="gtItNw-link tokenomic-link">Tokenoimcs</li>
+                        <li class="gtItNw-link tokenomic-link">Tokenoimcs</li>
+                        <li class="gtItNw-link tokenomic-link">Tokenoimcs</li>
+                        <li class="gtItNw-link tokenomic-link">Tokenoimcs</li>
+                        <li class="gtItNw-link tokenomic-link">Tokenoimcs</li>
+                        <li class="gtItNw-link tokenomic-link">Tokenoimcs</li>
+                    </ul>
+                    <div class="chart-container">
+                        <canvas id="myPieChart"></canvas>
+                    </div>
+                    <div class="chart-lengends-wrap">
+                        <div class="chrt-legend"><span>LP Locked</span></div>
+                        <div class="chrt-legend"><span>Treasury</span></div>
+                        <div class="chrt-legend"><span>MEME Charity</span></div>
+                        <div class="chrt-legend"><span>CEX Listings</span></div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- End Tokenomics -->
+
+            <!-- Start Road Map -->
+            <section class="road-map" id="Roadmap">
+                <div class="container">
+                    <div class="title-wrap">
+                        <span class="sub-title" data-aos="fade-up" data-aos-duration="700">We are on the</span>
+                        <div>
+                            <h2 class="getItNow-title" data-aos="fade-up" data-aos-duration="800">Road</h2>
+                            <h2 class="getItNow-title pb" data-aos="fade-up" data-aos-duration="900">Map</h2>
+                        </div>
+                        <span class="sub-title" data-aos="fade-up" data-aos-duration="1000">to heaven.</span>
+                    </div>
+                    <div class="rd-mp-coinfella">
+                        <img src="{{ url_for('static', filename='assets/img/illustration-3.png')}}">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="rd-mp-content">
+                                    <div class="stage-wrap">
+                                        <div class="title-wrap">
+                                            <h4 class="st-title orange">Stage 1:</h4>
+                                            <span class="st-sub-title">"Conceptualization"</span>
+                                        </div>
+                                        <ul class="events-wrap">
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}}"><span>Research</span></li>
+                                            <li class="rd-mp-event"><img src="{{ url_for('static', filename='assets/img/event-present.svg')}}"><span>Team
+                                                    Building</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}}"><span>Whitepaper</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}}"><span>Compliance</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}}"><span>Community</span></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="rd-mp-content">
+                                    <div class="stage-wrap">
+                                        <div class="title-wrap">
+                                            <h4 class="st-title cyan">Stage 2:</h4>
+                                            <span class="st-sub-title">"Development"</span>
+                                        </div>
+                                        <ul class="events-wrap">
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}} "><span>Blockchain</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}}"><span>wallets</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}} "><span>Website</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}} "><span>Testing</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-present.svg')}} "><span>Listings</span></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="rd-mp-content">
+                                    <div class="stage-wrap">
+                                        <div class="title-wrap">
+                                            <h4 class="st-title majestic-purple">Stage 3:</h4>
+                                            <span class="st-sub-title">"Launch"</span>
+                                        </div>
+                                        <ul class="events-wrap">
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Token</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Marketing</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Use
+                                                    Cases</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Education</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Feedback</span></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="rd-mp-content">
+                                    <div class="stage-wrap">
+                                        <div class="title-wrap">
+                                            <h4 class="st-title deep-moss-green">Stage 4:</h4>
+                                            <span class="st-sub-title">"Growth"</span>
+                                        </div>
+                                        <ul class="events-wrap">
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Governance</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Incentives</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Partnerships</span>
+                                            </li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Scaling</span></li>
+                                            <li class="rd-mp-event"><img
+                                                    src="{{ url_for('static', filename='assets/img/event-not-present.svg')}}"><span>Vision</span></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prev-next-btn-wrap">
+                        <button class="prev-btn"><img src="{{ url_for('static', filename='assets/img/prev-btn.png')}}"></button>
+                        <button class="next-btn"><img src="{{ url_for('static', filename='assets/img/next-btn.png')}}"></button>
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- End Road Map -->
+
+            <!-- Start How to Buy -->
+            <section class="hw-to-by-area" id="HowToBuy">
+                <div class="container">
+                    <div class="headline-wrap">
+                        <div class="title-wrap">
+                            <h2 class="hero-title">How to buy?</h2>
+                        </div>
+                        <div class="img-box">
+                            <img src="{{ url_for('static', filename='assets/img/illustration-6.png')}}">
+                        </div>
+                    </div>
+                    <!-- End Headline -->
+
+                    <div class="prcs-and-promo">
+                        <div class="promo-wrap">
+                            <div class="promo">
+                                <p class="promo-message">Have you gone through all of the steps before? Great! Then just
+                                    hit
+                                    the button down below and fill up your bag with memecoin right now.</p>
+                                <img src="{{ url_for('static', filename='assets/img/illustration-7.png')}} " class="promo-img">
+                            </div>
+                            <a href="https://themeforest.net/user/widethemes" target="_blank"
+                                class="primary-btn promo-btn"><span>Buy Template</span></a>
+                        </div>
+                        <!-- End Promo -->
+                        <div class="prcs-wrap">
+                            <div class="prcs-contents">
+                                <div class="title-wrap">
+                                    <span>Step <span class="prcs-stp-idx"></span>:</span>
+                                    <h4 class="prcs-title"></h4>
+                                </div>
+                                <p class="description prcs"></p>
+                            </div>
+                            <div class="prcs-nav-wrap">
+                                <button class="secondery-btn prcsNext">next step</button>
+                                <ul class="prcs-nav"></ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- End How to Buy -->
+
+            <!-- Start Faq -->
+            <section class="faq-area" id="Faq">
+                <h2 class="getItNow-title aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">Got Some Faq?
+                </h2>
+                <ul class="faq-wrap">
+                    <li class="faq">
+                        <div class="faq-content-wrap">
+                            <img src="{{ url_for('static', filename='assets/img/plus.svg')}} ">
+                            <div class="q-and-a-wrap">
+                                <h6 class="faq-q">What is memecoin and how does it work?</h6>
+                                <p class="faq-a">Memecoin is a fictional cryptocurrency that is showcased in this Framer
+                                    template.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq">
+                        <div class="faq-content-wrap">
+                            <img src="{{ url_for('static', filename='assets/img/plus.svg')}} ">
+                            <div class="q-and-a-wrap">
+                                <h6 class="faq-q">Where can I buy memecoin template?</h6>
+                                <p class="faq-a">You can buy this template directly from my lemonsqueezy store
+                                    hoffe.lemonsqueezy.com</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq">
+                        <div class="faq-content-wrap">
+                            <img src="{{ url_for('static', filename='assets/img/plus.svg')}}">
+                            <div class="q-and-a-wrap">
+                                <h6 class="faq-q">What makes Memecoin unique compared to other templates?</h6>
+                                <p class="faq-a">Memecoin is a vibrant landing page template designed for meme based
+                                    cryptocurrencies, which are hard to find on the market right now.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq">
+                        <div class="faq-content-wrap">
+                            <img src="{{ url_for('static', filename='assets/img/plus.svg')}}">
+                            <div class="q-and-a-wrap">
+                                <h6 class="faq-q">How can I edit Memecoin template?</h6>
+                                <p class="faq-a">If you are new to editing Framer templates, feel free to contact me at
+                                    hello@hoffe.design or jump right into the framer community, where you can find
+                                    answers
+                                    to your questions.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq">
+                        <div class="faq-content-wrap">
+                            <img src="{{ url_for('static', filename='assets/img/plus.svg')}}">
+                            <div class="q-and-a-wrap">
+                                <h6 class="faq-q">What are the potential risks associated with investing in Memecoin?
+                                </h6>
+                                <p class="faq-a">Memecoin is a fictional cryptocurrency, so investing in it is not
+                                    possible.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq">
+                        <div class="faq-content-wrap">
+                            <img src="{{ url_for('static', filename='assets/img/plus.svg')}}">
+                            <div class="q-and-a-wrap">
+                                <h6 class="faq-q">Are there any other templates for web3 websites?</h6>
+                                <p class="faq-a">Yes. I created few more templates focused on web3 projects. You can
+                                    find
+                                    them at hoffe.lemonsqueezy.com</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!-- End Faq -->
+
+            <!-- Start Footer -->
+            <section class="footer-area">
+                <div class="title-wrap">
+                    <h2 class="getItNow-title" data-aos="fade-up" data-aos-duration="500">Memecoin</h2>
+                </div>
+
+                <div class="footer-links-wrap">
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#Features" class="footer-link">Features</a>
+                    <a href="#Tokenomics" class="footer-link">Tokenomics</a>
+                    <a href="#Roadmap" class="footer-link">Roadmap</a>
+                    <a href="#HowToBuy" class="footer-link">How to Buy</a>
+                    <a href="#Faq" class="footer-link">FAQ</a>
+                </div>
+
+                <!-- End Footer-Links -->
+
+                <div class="cta-wrap-two">
+                    <a href="https://themeforest.net/user/widethemes" target="_blank"
+                        class="primary-btn promo-btn"><span>Buy Template</span></a>
+                    <button class="CTRP-btn">
+                        <p>→ Cryptocurrency Trading Risk Policy</p>
+                    </button>
+
+                </div>
+
+                <div class="cpy-right-wrap">
+                    <div class="cpy-img two">
+                        <img src="{{ url_for('static', filename='assets/img/illustration-4.svg')}}">
+                    </div>
+                    <span class="cpy">
+                        <span style="opacity: 0; visibility: hidden;">Widi</span>
+                        &#169;
+                        <span>memecoin, 2024</span></span>
+                    </span>
+
+                    <div class="cpy-img">
+                        <img src="{{ url_for('static', filename='assets/img/illustration-4.svg')}}">
+                    </div>
+
+                    <a href="https://themeforest.net/user/widethemes" target="_blank" class="design-by">Designed by
+                        WideThemes</a>
+
+                </div>
+
+            </section>
+            <!-- End Footer -->
+
+        </div>
+
+        <div class="CTRP-wrap">
+            <div class="CTRP-contents-wrap">
+                <h4 class="policy-title">Cryptocurrency Trading Risk Policy:</h4>
+                <div>
+                    <span class="policy-sub-title">Introduction:</span>
+                    <p class="policy-description">Before engaging in trading or holding cryptocurrencies through
+                        [Your Website Name], it is crucial to understand the risks associated with digital
+                        currencies and blockchain technology. This document outlines the key risks that you
+                        should consider. We strongly advise you to read this policy carefully and consult with
+                        professional advisors before making any investment decisions.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">1. Investment Risks</span>
+                    <p class="policy-description">Cryptocurrencies carry a high level of risk. The value of
+                        cryptocurrencies is extremely volatile and may fluctuate significantly within very short
+                        periods of time. Such volatility can result from changes in market dynamics, regulatory
+                        actions, technological advancements, or other factors. There is a substantial risk that
+                        you could lose all of your investment. You should only invest funds that you can afford
+                        to lose entirely.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">2. Regulatory Uncertainty</span>
+                    <p class="policy-description">The legal and regulatory environment surrounding
+                        cryptocurrencies is still developing and is subject to significant uncertainty. Future
+                        changes in laws and regulations could materially impact the cryptocurrency in terms of
+                        its use, exchange, and value. It is your responsibility to understand the regulatory
+                        requirements that apply to you and to comply with them.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">3. No Legal Protection</span>
+                    <p class="policy-description">Transactions in cryptocurrencies may not be reversible, and,
+                        therefore, losses due to fraudulent or accidental transactions may not be recoverable.
+                        Unlike traditional banks or credit card providers, there are generally no protections
+                        that can reverse a transaction if an error or fraud occurs.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">4. Market Liquidity</span>
+                    <p class="policy-description">Liquidity in cryptocurrency markets can vary widely and lack
+                        of liquidity can lead to high volatility in prices. This could result in significant
+                        changes in the value of your cryptocurrency holdings and may make it difficult for you
+                        to sell your holdings at a reasonable price.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">5. Technology Risks</span>
+                    <p class="policy-description">The technology underlying cryptocurrencies is blockchain,
+                        which relies on the internet and advanced computer hardware and software. As such, it is
+                        susceptible to a range of disruptions, including operational failures, cyber attacks, or
+                        significant changes in technology. Such disruptions can lead to losses.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">6. No Guarantee of Returns</span>
+                    <p class="policy-description">There is no guarantee that cryptocurrency will increase in
+                        value or that it will not decrease. Past performance is not indicative of future
+                        results. You should carefully consider whether trading or holding cryptocurrency aligns
+                        with your financial goals and risk tolerance.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">7. Tax Liability</span>
+                    <p class="policy-description">There is no guarantee that cryptocurrency will increase in
+                        value or that it will not decrease. Past performance is not indicative of future
+                        results. You should carefully consider whether trading or holding cryptocurrency aligns
+                        with your financial goals and risk tolerance.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">8. Expert Advice Recommended</span>
+                    <p class="policy-description">Trading cryptocurrencies involves significant risk. We
+                        recommend that you consult with financial, legal, and tax advisors to better understand
+                        the risks associated with cryptocurrencies.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">9. KYC/AML Compliance</span>
+                    <p class="policy-description">You are required to comply with all applicable anti-money
+                        laundering (AML) and know your customer (KYC) regulations. Failure to do so may result
+                        in the suspension or termination of your account.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">10. Use at Your Own Risk</span>
+                    <p class="policy-description">You acknowledge that you are using [Your Website Name]'s
+                        services at your own risk, understanding the volatile nature of the cryptocurrency
+                        market.</p>
+                </div>
+                <div>
+                    <span class="policy-sub-title">Conclusino:</span>
+                    <p class="policy-description">By using [Your Website Name], you acknowledge that you have
+                        read, understood, and agreed to the terms of this Cryptocurrency Trading Risk Disclosure
+                        Policy. If you have any questions or require further clarification, please contact us
+                        directly before using our services.</p>
+                </div>
+
+                <svg class="checkmark" id="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                    <!-- <circle class="checkmark_circle" cx="26" cy="26" r="25" fill="none"></circle> -->
+                    <path class="checkmark_check" fill="none" d="M14.1 14.1l23.8 23.8 m0,-23.8 l-23.8,23.8">
+                    </path>
+                    <path class="checkmark_check2" fill="none" d="M14.1 14.1l23.8 23.8 m0,-23.8 l-23.8,23.8">
+                    </path>
+                </svg>
+
+            </div>
+        </div>
+
+        <div class="full-scrn-vid-wrap">
+            <div class="full-scrn-vid">
+                <iframe
+                    src="https://player.vimeo.com/video/345945892?autoplay=1&muted=1&loop=1&autopause=0&controls=1"
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <button class="full-scrn-ext-btn">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg> -->
+
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark_circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark_check" fill="none"
+                            d="M14.1 14.1l23.8 23.8 m0,-23.8 l-23.8,23.8" />
+                        <path class="checkmark_check2" fill="none"
+                            d="M14.1 14.1l23.8 23.8 m0,-23.8 l-23.8,23.8" />
+                    </svg>
+
+                </button>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='assets/js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/aos.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/swiper-bundle.min.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/swiper-control.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/chart.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/chartjs-plugin-datalabels@2.js') }} "></script>
+
+    <script src="{{ url_for('static', filename='assets/js/jarallax.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/jarallax-element.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+</body>
+
+</html>

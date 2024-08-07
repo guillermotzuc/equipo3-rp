@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ===== Meta ===== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Favicon ===== -->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/img/favicon.png') }}">
+
+    <!-- ===== Title ===== -->
+    <title>Reconocimiento de patrones de voz</title>
+
+    <!-- ===== LineAwesome ===== -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/line-awesome.min.css') }}">
+
+
+    <!-- ===== LineAwesome ===== -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Dela+Gothic+One&display=swap"
+        rel="stylesheet">
+    <!-- ===== Bootstrap ===== -->
+    <link href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- ===== AOS ===== -->
+    <link href="{{ url_for('static', filename='assets/css/aos.css') }} " rel="stylesheet">
+    <!-- ===== Swiper ===== -->
+    <link href="{{ url_for('static', filename='assets/css/swiper-bundle.min.css') }} " rel="stylesheet">
+    <!-- ===== CSS ===== -->
+    <link href="{{ url_for('static', filename='assets/css/main.css') }} " rel="stylesheet">
+    <link href="{{ url_for('static', filename='assets/css/responsive.css') }}" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <main class="page-main">
+        <!-- Start Header -->
+        <header class="header_area">
+            <div class="container">
+                <div class="header_wrap">
+                    <a href="#hero" class="logo"></a>
+                    <!-- Start Nav -->
+                    <div class="navArea">
+                        <div class="social-link-wrap">
+                        </div>
+                        <!-- End Social -->
+                        <div class="cta-wrap">
+                            <a href="#" class="primary-btn purchase-btn" id="startRecording">
+                                <span>Grabar</span>
+                            </a>
+                            <a href="#" class="primary-btn purchase-btn" id="stopRecording" style="display: none;">
+                                <span>Detener</span>
+                            </a>
+                            <button class="menu-btn">
+                                <!-- <img src="assets/img/hamburger.svg">
+                                <img src="assets/img/close-sign.svg"> -->
+                                <span class="bars-wrap">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- End Nav -->
+                </div>
+                <nav class="nav-menu-wrap">
+                    <div class="nav-links-wrap">
+                        <a href="#about" class="nav-link"><span>About</span></a>
+                        <a href="#Features" class="nav-link"><span>Features</span></a>
+                        <a href="#Tokenomics" class="nav-link"><span>Tokenomics</span></a>
+                        <a href="#Roadmap" class="nav-link"><span>Roadmap</span></a>
+                        <a href="#HowToBuy" class="nav-link"><span>How To Buy</span></a>
+                        <a href="#Faq" class="nav-link"><span>Faq</span></a>
+                    </div>
+                    <img src="{{ url_for('static', filename='assets/img/illustration-5.png') }}" class="pouchfella">
+                    <div class="social-link-wrap two">
+                        <a href="https://www.telegram.com" class="social-link" target="_blank">
+                            <img src="{{ url_for('static', filename='assets/img/telegram-2.png') }} " alt="Telegram">
+                        </a>
+                        <a href="https://www.discord.com" class="social-link" target="_blank">
+                            <img src="{{ url_for('static', filename='assets/img/discord-2.png') }} " alt="Discord">
+                        </a>
+                        <a href="https://www.notion.com" class="social-link" target="_blank">
+                            <img src="{{ url_for('static', filename='assets/img/notion-2.png') }} " alt="Notion">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <div class="smooth-scroll-wrap">
+
+                        <!-- Start Road Map -->
+                        <section class="road-map" id="Roadmap">
+                            <div class="container">
+                                <div class="title-wrap">
+                                    <span class="sub-title" data-aos="fade-up" data-aos-duration="700">We are on the</span>
+                                    <div>
+                                        <h2 class="getItNow-title" data-aos="fade-up" data-aos-duration="800">Road</h2>
+                                        <h2 class="getItNow-title pb" data-aos="fade-up" data-aos-duration="900">Map</h2>
+                                    </div>
+                                    <span class="sub-title" data-aos="fade-up" data-aos-duration="1000">to heaven.</span>
+                                </div>
+                                <div class="rd-mp-coinfella">
+                                    <img src="{{ url_for('static', filename='assets/img/illustration-3.png')}}">
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End Road Map -->
+
+
+            <!-- Start Footer -->
+            <section class="footer-area">
+            </section>
+            <!-- End Footer -->
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='assets/js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/aos.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/swiper-bundle.min.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/swiper-control.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/chart.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/chartjs-plugin-datalabels@2.js') }} "></script>
+
+    <script src="{{ url_for('static', filename='assets/js/jarallax.js') }} "></script>
+    <script src="{{ url_for('static', filename='assets/js/jarallax-element.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+</body>
+<script>
+    
+    navigator
+        .mediaDevices
+        .getUserMedia({audio: true})
+        .then(stream => { handlerFunction(stream) });
+
+    function handlerFunction(stream) {
+        rec = new MediaRecorder(stream);
+        rec.ondataavailable = e => {
+            audioChunks.push(e.data);
+            if (rec.state == "inactive") {
+                let blob = new Blob(audioChunks, {type: 'audio/mpeg-3'});
+                sendData(blob);
+            }
+        }
+    }
+
+    function sendData(data) {
+        var form = new FormData();
+        form.append('file', data, 'data.mp3');
+        form.append('title', 'data.mp3');
+        //Chrome inspector shows that the post data includes a file and a title.
+        $.ajax({
+            type: 'POST',
+            url: '/save-record',
+            data: form,
+            cache: false,
+            processData: false,
+            contentType: false
+        }).done(function(data) {
+            console.log(data);
+        });
+    }
+
+    startRecording.onclick = e => {
+        console.log('Recording are started..');
+        $('#stopRecording').show();
+        $('#startRecording').hide();
+        startRecording.disabled = true;
+        stopRecording.disabled = false;
+        audioChunks = [];
+        rec.start();
+    };
+
+    stopRecording.onclick = e => {
+        console.log("Recording are stopped.");
+        $('#startRecording').show();
+        $('#stopRecording').hide();
+        startRecording.disabled = false;
+        stopRecording.disabled = true;
+        rec.stop();
+    };
+</script>
+</html>
